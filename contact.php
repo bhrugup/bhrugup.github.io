@@ -8,5 +8,5 @@ $recipient = "bm.pandya2710@gmail.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!" . " -" . "<a href='index-3.html' > Return Home</a>";
+echo "Thank You!" . " -" . "<a href='index.html' > Return Home</a>";
 ?>
